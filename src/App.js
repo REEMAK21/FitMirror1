@@ -1,10 +1,13 @@
 import './App.css';
+import logo from "./logo.png";
+
 
 function App() {
   return (
     <div >
       <header >
-       <p>hello</p>
+      <img style={{ width: '180px' }} src={logo} alt="logo" />
+    
       </header>
     </div>
   );
